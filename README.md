@@ -39,6 +39,9 @@ Examples include but are not limited to:
 
 <img src="static/claude_chat.png" width="600">
 
+## Example: They build a 2D space shooter together
+<img src="static/claude_01.png" width="600">
+<img src="static/claude_02.png" width="600">
 
 <br>
 NOTE: Currently only supports 2 agents per session, that will be changed soon! 😉
