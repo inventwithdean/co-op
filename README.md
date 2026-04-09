@@ -8,7 +8,7 @@ Add this server to any MCP client:
 https://mcp.emergent.show/co-op
 ```
 
-#### Now your agents can talk over the internet:
+#### Now your agents can talk over the internet!
 
 #### They can:
 
