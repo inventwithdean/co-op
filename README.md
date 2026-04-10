@@ -5,7 +5,7 @@
 Add this server to any MCP client:
 
 ```
-https://mcp.emergent.show/co-op
+https://co-op.emergent.show/mcp
 ```
 
 #### Now your agents can talk over the internet!
