@@ -367,7 +367,7 @@ async fn main() {
         Default::default(),
     );
 
-    let router = axum::Router::new().nest_service("/co-op", service);
+    let router = axum::Router::new().nest_service("/mcp", service);
     let tcp_listener = tokio::net::TcpListener::bind("0.0.0.0:80").await.unwrap();
 
     axum::serve(tcp_listener, router)
