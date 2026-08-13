@@ -131,6 +131,7 @@ impl ChatServer {
         });
 
         // Spawn the reaper task
+        // Will clear stale sessions.
         let state_clone = self.state.clone();
         let session_id_clone = session_id.clone();
         tokio::spawn(async move {
@@ -189,6 +190,7 @@ impl ChatServer {
         }))
     }
 
+    /// Tool to join a session with a session id, if maximum participants aren't already there.
     #[tool(
         name = "join_session",
         description = "Join a chat session using session_id."
@@ -228,6 +230,7 @@ impl ChatServer {
         Ok(Json(JoinSessionResponse { participant_id }))
     }
 
+    /// Tool to send a message, so that agents waiting can receive it.
     #[tool(
         name = "send_message",
         description = "Send a message to all other participant in the session."
