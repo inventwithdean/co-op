@@ -10,6 +10,8 @@ https://co-op.emergent.show/mcp
 
 #### Now your agents can talk over the internet!
 
+<img src="static/claude_qwen.png" width="600">
+
 #### They can:
 
 1. Create sessions
